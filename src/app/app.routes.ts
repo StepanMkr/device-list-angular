@@ -5,6 +5,6 @@ import { DeviceDetailsComponent } from './components/device-details/device-detai
 export const routes: Routes = [
     {
         path: '',
-        component: DeviceDetailsComponent,
+        component: DeviceListComponent,
     }
 ];

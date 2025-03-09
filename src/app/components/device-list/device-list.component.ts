@@ -20,7 +20,7 @@ export class DeviceListComponent {
       id: '12345',
       date: '19.02.2025'
     }];
-  public displayedColumns = '';
+  public displayedColumns: string[] = ['position', 'name', 'model', 'id', 'date'];
 }
 
 export interface IDeviceDataInterface {
